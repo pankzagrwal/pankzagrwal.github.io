@@ -1,9 +1,39 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+
 <head>
-	<title>What a page</title>
+    <title>Hello World</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="app.css">
 </head>
+
 <body>
-<span style="margin: auto">Welcome.. Work in progress</span>
+    <div id="wrapper">
+        <div id="main">
+            <div class="inner">
+                <h1 id="text02"><span>Pankaj</span><br /> <span>Agarwala</span></h1>
+                <p id="text01">JavaScript Engineer</p>
+                <ul class="icons" id="icons01">
+                    <li><a class="icon icon-906 n04 stack" target="_blank" href="http://stackoverflow.com/users/1589459/pnkz"></a></li>
+                    <li><a class="icon icon-906 n04 git" target="_blank" href="https://github.com/pankzagrwal"></a></li>
+                    <li><a class="icon icon-906 n04 linkedin" target="_blank" href="https://www.linkedin.com/in/agarwalapankaj"></a></li>
+                    <li><a class="icon icon-910 n01 insta" target="_blank" href="https://www.instagram.com/pankajagarwala/"></a></li>
+                    <li><a class="icon icon-905 n03 twitter" target="_blank" href="https://twitter.com/pankz_me"></a></li>
+                    <li><a class="icon icon-906 n04 fb" target="_blank" href="https://www.facebook.com/pankaj.agrwal"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
+<script>
+
+
+window.onload = function() {
+    var content = document.getElementById("main");
+    content.classList.add("animate");
+};
+
+</script>
+
 </html>
