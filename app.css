@@ -563,6 +563,7 @@ body:before {
 .stack {
     background-image: url("stackoverflow.png");
     background-size: cover;
+    background-color: white;
 }
 
 .git {
